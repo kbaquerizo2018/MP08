@@ -1,0 +1,256 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e6e8eb;
+  font-family: Lucida Grande, tahoma, San Francisco, Roboto, Segoe Ui;
+}
+
+#barra{
+  height: 43px;
+  background-color: #334f8b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000;
+  }
+
+#contenidor{
+  width: 852px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+#portada{
+  height: 234px;
+  background-image: url(img/portada.jpg);
+  margin-top: 43px;
+}
+
+#nom{
+  background-color: yelwwlow;
+  color: white;
+  text-shadow: 0 0 5px black;
+  width: 320px;
+  top: 188px;
+  left: 200px;
+  position: relative;
+}
+
+#perfil{
+  background-color: pink;
+  border: solid 2px white;
+  border-radius: 4px;
+  margin-left: 13px;
+  position: relative;
+  margin-top: 44px;
+  box-shadow: 0 0 5px black;
+  }
+
+  #menu{
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0px;
+  margin: 0 0 0 192px;
+  width: 476px;
+  }
+
+  #menu li{
+    float: left;
+    padding: 0 18px;
+    display:block;
+    font-weight: bold;
+    color:#395ca9;
+    background-color: #FFF;
+    margin: 0 0 0 1px;
+    height: 44px;
+    line-height: 44px;
+  }
+
+  #menu li:hover{
+    color:#000;
+    background-image: url(img/select.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 38px ;
+  }
+
+
+  #contingut{
+    border-top: solid 1px #e6e8eb;
+  }
+
+  .esquerra ul{
+    margin-top: 20px;
+  }
+
+  .esquerra{
+    width: 323px;
+    border: solid 1px #CCC;
+    border-radius: 3px;
+    margin: 10px 0;
+  }
+
+  .esquerra h4{
+    height: 14px;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 18px;
+    text-indent: 30px;
+    background-image:  url(img/lateral.png);
+    background-repeat: no-repeat;
+    margin:5px;
+  }
+
+  #presentacio li{
+    height: 20px;
+    border-top: 1px soliid #e6e8eb;
+    padding: 5px;
+  }
+
+  #presentacio .estudis{
+    list-style-image: url(iconetes/icones_estudis.png);
+  }
+
+  #presentacio .domicili{
+    list-style-image: url(iconetes/icones_domicili.png);
+  }
+
+  #presentacio .feina{
+    list-style-image: url(iconetes/icones_feina.png);
+  }
+
+  #presentacio .relacio{
+    list-style-image: url(iconetes/icones_sentimental.png);
+  }
+
+  #presentacio .esdeveniments{
+    list-style-image: url(iconetes/icones_esdeveniments.png);
+  }
+
+  #fotos li{
+    display: block;
+
+  }
+
+  #fotos h4{
+  background-position: 0 -24px;
+
+  }
+
+  #amics h4{
+    background-position: 0 -48px;
+  }
+
+  #presentacio h4{
+    background-position: 0 0px;
+  }
+
+  #fotos ul li{
+    background-color: ;
+    display: block;
+    width: 99px;
+    height: 99px;
+    margin: 4px;
+    float: left;
+  }
+
+  #fotos ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  #f1{
+    background-image: url(img/1.jpg);
+
+  }
+  #f2{
+    background-image: url(img/2.jpg);
+
+  }
+  #f3{
+    background-image: url(img/3.jpg);
+
+  }
+  #f4{
+    background-image: url(img/4.jpg);
+
+  }
+  #f5{
+    background-image: url(img/5.jpg);
+
+  }
+  #f6{
+    background-image: url(img/6.jpg);
+
+  }
+  #f7{
+    background-image: url(img/7.jpg);
+
+  }
+  #f8{
+    background-image: url(img/8.jpg);
+
+  }
+  #f9{
+    background-image: url(img/9.jpg);
+
+  }
+
+  #amics ul li{
+    background-color: ;
+    display: block;
+    width: 99px;
+    height: 99px;
+    margin: 4px;
+    float: left;
+    color: white;
+    line-height: 178px;
+    text-shadow: 0 0 2px #black;
+    text-indent: 5px;
+    background-image: url(img/perfil.jpg);
+  }
+
+  #amics ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  #a1{
+    background-image: url(https://kbaquerizo2018.github.io/MP08/s2m8uf103_kbaquerizo/img/perfil.jpg);
+
+  }
+  #a2{
+    background-image: url(img/perfil.jpg);
+
+  }
+  #a3{
+    background-image: url(img/perfil.jpg);
+
+  }
+  #a4{
+    background-image: url(img/perfil.jpg);
+
+  }
+  #a5{
+    background-image: url(img/perfil.jpg);
+
+  }
+  #a6{
+    background-image: url(img/perfil.jpg);
+
+  }
+  #a7{
+    background-image: url(img/perfil.jpg);
+
+  }
+  #a8{
+    background-image: url(img/perfil.jpg);
+
+  }
+  #a9{
+    background-image: url(img/perfil.jpg);
+
+  }
